@@ -22,9 +22,9 @@ namespace BookClass
             genre = "Unknown";
         }
 
-        public Book(string title_)
+        public Book(string title)
         {
-            title = title_;
+            title = title;
             author = "Unknown";
             yearPublished = 0;
             genre = "Unknown";
